@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="605.0" style="-fx-background-color: black; -fx-border-color: yellow;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.learning_tool.Controller">
+    <children>
+        <Button fx:id="submit" layoutX="276.0" layoutY="404.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: yellow;" text="Submit" textAlignment="CENTER" />
+        <TextField fx:id="input" layoutX="237.0" layoutY="300.0" prefHeight="41.0" prefWidth="133.0" promptText="..." style="-fx-background-color: grey;">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </TextField>
+        <Label layoutX="109.0" layoutY="34.0" prefHeight="93.0" prefWidth="387.0" text="Learning Tool" textFill="#ffe000">
+            <font>
+                <Font size="64.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="266.0" layoutY="148.0" prefHeight="30.0" prefWidth="73.0" text="English" textFill="#ffe000">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="englishL" alignment="CENTER" layoutX="93.0" layoutY="178.0" prefHeight="30.0" prefWidth="419.0" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="266.0" layoutY="210.0" prefHeight="30.0" prefWidth="73.0" text="German" textFill="#ffe000">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="germanL" alignment="CENTER" layoutX="103.0" layoutY="240.0" prefHeight="30.0" prefWidth="419.0" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="270.0" layoutY="262.0" prefHeight="30.0" prefWidth="66.0" text="Answer" textFill="#ffe000">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="checkL" alignment="CENTER" layoutX="93.0" layoutY="356.0" prefHeight="30.0" prefWidth="419.0" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+      <Button fx:id="add" layoutX="276.0" layoutY="442.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: yellow;" text="add" textAlignment="CENTER" />
+    </children>
+</Pane>
