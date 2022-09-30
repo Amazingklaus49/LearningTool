@@ -48,7 +48,6 @@ public class Controller implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         germanL.setText(randomEx.getGerman());
         englishL.setText(randomEx.getEnglish());
-
     }
 
     @FXML
@@ -59,8 +58,8 @@ public class Controller implements Initializable {
             System.out.println("true");
             checkL.setText("Correct answer");
             randomEx = model.selectRandomTranslation();
-            englishL.setText(randomEx.getGerman());
-            germanL.setText(randomEx.getEnglish());
+            englishL.setText(randomEx.getEnglish());
+            germanL.setText(randomEx.getGerman());
         } else {
             System.out.println("false");
             checkL.setText("Wrong answer");
